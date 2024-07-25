@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brito Burguer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Brito Burguer">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content animate__animated animate__fadeInDown">
+            <h1>Bem-vindo ao Brito Burguer!</h1>
+            <p>Experimente nossos hambúrgueres artesanais feitos com os melhores ingredientes.</p>
+            <a href="#menu" class="btn animate__animated animate__fadeInUp">Veja o Menu</a>
+        </div>
+        <div class="hero-slider">
+            <div class="slide">
+                <img src="images/burger3.jpg" alt="Hambúrguer 1">
+            </div>
+            <div class="slide">
+                <img src="images/burger1.jpg" alt="Hambúrguer 2">
+            </div>
+            <div class="slide">
+                <img src="images/burger2.jpg" alt="Hambúrguer 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeInUp">Nosso Menu</h2>
+            <div class="menu-item animate__animated animate__fadeInUp">
+                <img src="images/burger1.jpg" alt="Hambúrguer Clássico">
+                <div class="menu-info">
+                    <h3>Hambúrguer Clássico</h3>
+                    <p>Delicioso hambúrguer com carne 100% bovina, queijo cheddar, alface, tomate e molho especial.</p>
+                    <span>R$ 19,99</span>
+                </div>
+            </div>
+            <div class="menu-item animate__animated animate__fadeInUp">
+                <img src="images/burger2.jpg" alt="Hambúrguer BBQ">
+                <div class="menu-info">
+                    <h3>Hambúrguer BBQ</h3>
+                    <p>Hambúrguer com molho barbecue, cebola caramelizada, bacon crocante e queijo cheddar.</p>
+                    <span>R$ 22,99</span>
+                </div>
+            </div>
+            <div class="menu-item animate__animated animate__fadeInUp">
+                <img src="images/burger3.jpg" alt="Hambúrguer Vegano">
+                <div class="menu-info">
+                    <h3>Hambúrguer Vegano</h3>
+                    <p>Hambúrguer à base de vegetais com molho especial, alface, tomate e cebola roxa.</p>
+                    <span>R$ 24,99</span>
+                </div>
+            </div>
+
+            <div class="menu-item animate__animated animate__fadeInUp">
+                <img src="images/burger4.jpg" alt="Hambúrguer Picante">
+                <div class="menu-info">
+                    <h3>Hambúrguer Picante</h3>
+                    <p>Hambúrguer com molho picante, jalapeños, queijo pepper jack e alface crocante.</p>
+                    <span>R$ 25,99</span>
+                </div>
+            </div>
+            <div class="menu-item animate__animated animate__fadeInUp">
+                <img src="images/burger5.jpg" alt="Hambúrguer Gourmet">
+                <div class="menu-info">
+                    <h3>Hambúrguer Gourmet</h3>
+                    <p>Hambúrguer com carne de angus, queijo brie, cebola roxa e molho de trufa.</p>
+                    <span>R$ 29,99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeInUp">Sobre Nós</h2>
+            <p class="animate__animated animate__fadeInUp">Somos um restaurante de fast food especializado em
+                hambúrgueres artesanais. Nosso objetivo é oferecer a melhor experiência gastronômica com produtos
+                frescos e saborosos. Venha nos visitar e descubra por que somos os melhores!</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeInUp">Contato</h2>
+            <form id="contactForm" class="animate__animated animate__fadeInUp">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <p>&copy; 2024 Brito Burguer. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
